@@ -1,0 +1,70 @@
+.headerbox
+{
+    width:78vw;
+    height: 9vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.flexw
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.textforreport
+{
+    width:25vw;
+    height: 9vh;
+  
+}
+.dropdownbox
+{
+    width:25vw;
+    height: 9vh;
+   
+
+}
+.btntogen
+{
+    width:25vw;
+    height: 9vh;
+    
+
+}
+.datediv
+{
+    width:76vw;
+    height: 4vh;  
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.nameproj
+{
+color:rgb(27, 27, 227);
+font-weight: 700;
+
+}
+.datecontainer
+{
+    width: 10vw;
+    display: flex;
+    
+}
+.datediv2
+{
+    width:76vw;
+    height: 4vh;  
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;   
+
+}
