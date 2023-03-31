@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer {
+  color: white;
+  z-index: 1;
+}
+
+.footer-content{
+  background-color: #2196f3;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-cls {
+  background-color: #2196f3;
+  display: flex;
+  width: 100vw;
+  gap: 0.7rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.2%;
+}
+.first {
+  display: flex;
+  gap: 1rem;
+  padding: 1%;
+  flex-direction: column;
+  width: 20vw;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -80px;
+  width: 20vw;
+  padding: 0.4%;
+}
+.icon-flex {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: center;
+  width: 14vw;
+  height: 100%;
+  font-size: 1.8rem;
+  top: 50px;
+}
+i {
+  border-radius: 50px;
+}
+i:hover {
+  color: rgb(8, 8, 78);
+}
+.footer-content h3 {
+  position: relative;
+  font-size: 1.2rem;
+  color: #071250;
+}
+.footer-content h3::after {
+  content: " ";
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 30%;
+  background-color: #1b448b;
+  box-shadow: 2px 1px 2px 1px;
+}
+.footer-logo {
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 0rem;
+}
+
+.first ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 2rem;
+}
+.first ul li {
+  list-style: none;
+  line-height: 2rem;
+}
+.first ul li:hover {
+  color: rgb(36, 23, 218);
+  font-family: Verdana;
+  transition: all 0.7s;
+  padding-left: 4%;
+}
+.cpyrgt {
+  width: 100vw;
+  background-color: #309ef8;
+  padding: 0.5%;
+}
+.cpyrgt p {
+  color: rgb(43, 55, 124);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media only screen and (max-width: 910px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .second {
+    position: static;
+    gap: 1rem;
+    width: auto;
+    padding-bottom: 1%;
+  }
+  .first {
+    width: auto;
+  }
+  .icon-flex {
+    position: static;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 143px) {
+  .footer-content h3 {
+    font-size: 0.8rem;
+  }
+  .first {
+    font-size: 0.7rem;
+  }
+  .cpyrgt p {
+    font-size: 0.8rem;
+  }
+  .second {
+    position: static;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 2%;
+  }
+}

@@ -1,0 +1,337 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif Pro", serif;
+}
+.ousidecontainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(239, 243, 243); */
+  background-color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.insidecontainer {
+  width: 93vw;
+  height: 88vh;
+  /* background-color: rgb(188, 228, 247); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* border-radius: 10px; */
+}
+
+.profilechat {
+  margin-right: 1%;
+  width: 30vw;
+  height: 84vh;
+  border: 1px solid blue;
+  /* background-color: green; */
+  background-color: #45a2ee;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+/* prof side */
+.userprofside {
+  height: 30vh;
+  width: 28vw;
+  background-color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.profimgside {
+  height: 90%;
+  width: 50%;
+  background-color: #2196f3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profimgside img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.imageprof {
+  height: 72%;
+}
+.profnameside {
+  width: 28vw;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profnameside h3 {
+  color: #1986eb;
+  font-weight: 700;
+}
+.profbtn {
+  width: 28vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.btn3 {
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  border: none;
+  height: 43%;
+}
+.editbtn {
+  width: 100px;
+  margin-right: 7px;
+  background-color: #1986eb;
+  border: 2px solid #1f76c7;
+}
+.editbtn:hover {
+  background-color: #1972c5;
+  font-size: 15px;
+  font-weight: 600;
+  height: 45%;
+}
+.logoutbtn:hover {
+  background-color: #fa0303;
+  font-size: 15px;
+  font-weight: 600;
+  height: 45%;
+}
+
+.logoutbtn {
+  width: 100px;
+  background-color: #ff4444;
+  border: 2px solid #ee3939;
+}
+/* prof side end */
+
+.chatbox {
+  width: 60vw;
+  height: 85vh;
+
+  /* border-radius: 20px; */
+  /* background-color: blue; */
+  /* border: 3px solid rgb(87, 63, 226); */
+}
+.chattitle {
+  height: 11vh;
+  width: 60vw;
+  /* background-color: rgb(85 134 134); */
+  /* background-color: rgb(49 114 114); */
+  border-top: 2px solid rgb(40, 40, 196);
+  border-left: 2px solid rgb(40, 40, 196);
+  border-right: 2px solid rgb(40, 40, 196);
+  background-color: rgba(51, 117, 230, 0.93);
+  display: flex;
+  gap: 1.3rem;
+  border-top-left-radius: 7px;
+  padding-left: 2%;
+  border-top-right-radius: 7px;
+}
+.profpicbox {
+  width: 80px;
+  height: 72px;
+  border-radius: 50%;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+}
+.profpicbox img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profimg {
+  width: 8vw;
+  height: 10vh;
+}
+.profname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nametitle {
+  color: white;
+}
+.status {
+  /* color: rgb(106, 255, 47); */
+  color: rgb(17 255 48);
+}
+
+.chatmsgbox {
+  height: 65vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  overflow-y: scroll;
+  border-right: 6px solid #46ced8;
+  border-left: 6px solid #46ced8;
+}
+
+.msgboxright {
+  width: 30vw;
+  height: 8vh;
+  background-color: #2196f3;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 20px;
+  /* justify-self: flex-end; */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #2681cc;
+  border-bottom-right-radius: 1px;
+}
+.outmsgboxright {
+  width: 60vw;
+  display: flex;
+
+  justify-content: flex-end;
+}
+.msgboxright h5,
+.msgboxleft h5 {
+  padding: 2px;
+  font-weight: 550;
+  /* color: rgb(19, 48, 48); */
+  color: white;
+}
+.msgboxleft {
+  width: 30vw;
+  height: 8vh;
+  /* background-color: #76ff92ad; */
+  background-color: #774ee4e6;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #6644c5e6;
+  border-bottom-left-radius: 1px;
+}
+.msginputbox {
+  background-color: 76ff92ad;
+  height: 9vh;
+  border-radius: 20px;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.msginput {
+  width: 55vw;
+  height: 9vh;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  /* background-color: rgb(140 255 169); */
+  background-color: #1986eb;
+  /* border-radius: 10px; */
+  font-size: larger;
+  font-weight: 300;
+  border-top: 2px solid #3638be99;
+  color: white;
+  font-weight: 600;
+  border-bottom-left-radius: 10px;
+}
+.msginput::placeholder {
+  color: white;
+  font-weight: 600;
+}
+.sendicon {
+  width: 5vw;
+  height: 9vh;
+  color: #1986eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1986eb;
+  border-bottom-right-radius: 10px;
+  border-top: 2px solid #3638be99;
+
+  /* justify-self: flex-end; */
+  /* background-color: black; */
+}
+.sendbtn {
+  border: none;
+  outline: none;
+  width: 4vw;
+  height: 8vh;
+  background-color: #1986eb;
+  border-radius: 50%;
+  background-color: white;
+}
+.sendbtn img {
+  width: 50%;
+  height: 57%;
+}
+.sendbtn img:hover {
+  width: 53%;
+  height: 60%;
+}
+.sendbtn:hover {
+  background-color: rgb(240, 243, 255);
+}
+@media only screen and (max-width: 1070px) {
+  .imageprof {
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .profimgside {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .insidecontainer {
+    flex-direction: column-reverse;
+    margin-top: 190px;
+  } */
+
+  .profilechat {
+    width: 30%;
+  }
+  .userprofside {
+    width: 90%;
+  }
+  /* .profimgside {
+    width: 85;
+  } */
+  .profnameside {
+    width: 90%;
+  }
+  .profbtn {
+    width: 90%;
+  }
+  .sendbtn {
+    width: 10vw;
+    height: 7vh;
+  }
+}
